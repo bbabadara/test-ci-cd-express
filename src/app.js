@@ -19,7 +19,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 
 app.get("/api/hello", (req, res) => {
-  res.json({ message: "Hello DevOps 🚀" });
+  res.json({ message: "Hello DevOps test a1🚀" });
 });
 
 module.exports = app;
